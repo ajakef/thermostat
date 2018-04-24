@@ -1,0 +1,5 @@
+The thermostat pcb is a bit more general than the name suggests: basically, it's for turning any device on and off depending on the reading of one or two sensors, according to rules programmed in Arduino code.
+
+It requires a [120|120/240] VAC power supply and a load current of less than 10 A. The max load current can be increased to 15 A by swapping in a slightly more expensive relay.
+
+Schematic symbols are all stored in thermostat.lib. Component footprints are all stored in thermostat.pretty/. There should be no library issues.
